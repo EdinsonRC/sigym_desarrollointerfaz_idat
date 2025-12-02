@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Proyecto para examen final del Desarrollo de interfaz">
+    <meta name="keywords" content="html,css,js, bootstrap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de seguimiento de gimnasio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><span class="lg_black">CROSS</span><span class="lg_crimson">FIGHT</span></a>
+    </header>
+    <section class="bg_login" >
+        <form class="login">
+  <div class="mb-3">
+    <label for="usuario" class="form-label" aria-describedby="emailHelp">Usuario</label>
+    <input type="email" class="form-control inp_form" id="usuario">
+    <div id="emailHelp" class="form-text msj-user">Nunca compartiremos tu correo electrónico con nadie más.</div>
+  </div>
+  <div class="mb-3">
+    <label for="contraseña" class="form-label" aria-describedby="emailHelp">Contraseña</label>
+    <input type="password" class="form-control inp_form" id="contraseña">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Acepto <a href="#" class="terminos">Terminos y condiciones</a></label>
+  </div>
+  <button type="button" class="btn btn-primary btn_login" onclick="ingreso()">LOGIN</button>
+</form>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>
